@@ -27,14 +27,16 @@
           </p>
         </div>
       </modal>
+      <TextEditor />
     </div>
   </template>
   
   <script>
   import Modal from './Modal'
+  import TextEditor from './TextEditor'
   
   export default {
-    components: { Modal },
+    components: { Modal, TextEditor },
     data() {
       return {
         isModalOpen: false
@@ -49,5 +51,7 @@
   </script>
   
   <style lang="scss" scoped>
-  
+  button {
+    margin-bottom: 24px;
+  }
   </style>
