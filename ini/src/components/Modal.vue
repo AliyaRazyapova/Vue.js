@@ -58,8 +58,9 @@
         isRulesReaded: false
       }
     },
-    beforeCreate() {
-      console.log('beforeCreate')
+    mounted() {
+    const modalBody = this.$refs.modalBody
+    modalBody.scrollTop = modalBody.scrollHeight - modalBody.clientHeight
     },
     methods: {
       closeModal() {
