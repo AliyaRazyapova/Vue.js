@@ -1,22 +1,25 @@
 <template>
   <div id="app">
-    <MyComponent />
-    <MyCounter />
-    <UserCard />
+    <!-- <MyComponent /> -->
+    <!-- <MyCounter /> -->
+    <!-- <UserCard /> -->
+    <UserSearch />
   </div>
 </template>
 
 <script>
-import MyComponent from './components/MyComponent'
-import MyCounter from './components/MyCounter'
-import UserCard from './components/UserCard'
+// import MyComponent from './components/MyComponent'
+// import MyCounter from './components/MyCounter'
+// import UserCard from './components/UserCard'
+import UserSearch from './components/UserSearch'
 
 export default {
   name: 'App',
   components: {
-    MyComponent,
-    MyCounter,
-    UserCard,
+    // MyComponent,
+    // MyCounter,
+    // UserCard,
+    UserSearch
   }
 }
 
