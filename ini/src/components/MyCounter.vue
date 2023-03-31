@@ -26,7 +26,7 @@
   
   <script>
   export default {
-    name: 'Counter',
+    name: 'MyCounter',
     data() {
       return {
         count: 1,
