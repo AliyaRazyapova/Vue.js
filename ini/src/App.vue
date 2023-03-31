@@ -5,11 +5,12 @@
     <!-- <UserCard /> -->
     <!-- <UserSearch /> -->
     <!-- <PhotoRedactor /> -->
-    <div class="container">
+    <!-- <div class="container"> -->
       <!-- <UserForm /> -->
       <!-- <SignUp /> -->
-      <UserPage />
-    </div>
+      <!-- <UserPage />/ -->
+    <!-- </div> -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -22,11 +23,11 @@
 // import ProductList from './components/ProductList'
 // import UserForm from './components/UserForm'
 // import SignUp from './components/SignUp'
-import UserPage from './components/UserPage'
+// import UserPage from './components/UserPage'
 
 export default {
   name: 'App',
-  components: {
+  // components: {
     // MyComponent,
     // MyCounter,
     // UserCard,
@@ -35,8 +36,8 @@ export default {
     // ProductList,
     // UserForm
     // SignUp
-    UserPage
-}
+    // UserPage
+// }
 }
 
 </script>
