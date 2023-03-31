@@ -5,6 +5,9 @@
     <!-- <UserCard /> -->
     <!-- <UserSearch /> -->
     <!-- <PhotoRedactor /> -->
+    <div class="conatiner">
+      <ProductList />
+    </div>
   </div>
 </template>
 
@@ -14,6 +17,7 @@
 // import UserCard from './components/UserCard'
 // import UserSearch from './components/UserSearch'
 // import PhotoRedactor from './components/PhotoRedactor'
+import ProductList from './components/ProductList'
 
 export default {
   name: 'App',
@@ -23,6 +27,7 @@ export default {
     // UserCard,
     // UserSearch
     // PhotoRedactor
+    ProductList
   }
 }
 
