@@ -6,7 +6,8 @@
     <!-- <UserSearch /> -->
     <!-- <PhotoRedactor /> -->
     <div class="container">
-      <UserForm />
+      <!-- <UserForm /> -->
+      <SignUp />
     </div>
   </div>
 </template>
@@ -18,7 +19,8 @@
 // import UserSearch from './components/UserSearch'
 // import PhotoRedactor from './components/PhotoRedactor'
 // import ProductList from './components/ProductList'
-import UserForm from './components/UserForm'
+// import UserForm from './components/UserForm'
+import SignUp from './components/SignUp'
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     // UserSearch
     // PhotoRedactor
     // ProductList,
-    UserForm
+    // UserForm
+    SignUp
 }
 }
 
