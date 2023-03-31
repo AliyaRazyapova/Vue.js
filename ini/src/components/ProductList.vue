@@ -3,7 +3,15 @@ import ProductCard from './ProductCard.vue';
 
 <template>
     <div class="product-list">
-        <h1>Письменные столы</h1>
+        <div class="flex top-information">
+            <h1>Письменные столы</h1>
+            <MyInput v-model="searchText" />
+            {{ searchText }}
+            <button>
+                Найти
+            </button>
+        </div>
+
         <ul class="list-default flex">
             <li
               v-for="(product, index) in products"
@@ -22,14 +30,16 @@ import ProductCard from './ProductCard.vue';
 </template>
 
 <script>
+import MyInput from './MyInput.vue';
 import ProductCard from './ProductCard'
 
 
 export default {
     name: 'ProductList',
-    components: { ProductCard },
+    components: { ProductCard, MyInput },
     data() {
         return {
+            searchText: '',
             products: [
                 {
                     title: 'Стол Jim',
@@ -63,5 +73,22 @@ export default {
 <style lang="scss" scoped>
 li {
   margin-right: 20px;
+}
+.top-information {
+  align-items: center;
+  h1 {
+    margin-bottom: 0;
+  }
+  button {
+    background-color: rgb(221, 56, 56);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 14px;
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  margin-bottom: 22px;
 }
 </style>
