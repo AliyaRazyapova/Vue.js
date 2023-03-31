@@ -4,7 +4,7 @@
     <!-- <MyCounter /> -->
     <!-- <UserCard /> -->
     <!-- <UserSearch /> -->
-    <PhotoRedactor />
+    <!-- <PhotoRedactor /> -->
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 // import MyCounter from './components/MyCounter'
 // import UserCard from './components/UserCard'
 // import UserSearch from './components/UserSearch'
-import PhotoRedactor from './components/PhotoRedactor'
+// import PhotoRedactor from './components/PhotoRedactor'
 
 export default {
   name: 'App',
@@ -22,7 +22,7 @@ export default {
     // MyCounter,
     // UserCard,
     // UserSearch
-    PhotoRedactor
+    // PhotoRedactor
   }
 }
 
